@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Result from './components/Result';
 
 const secret=Math.floor(Math.random() *10)+1
-function App() {0
+function App() {
 
   const [typenumber,changeNum]=useState('')
   console.log(typenumber)
